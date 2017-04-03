@@ -18,16 +18,17 @@ public class Run {
 
 
         Engine engine = new Engine(2.0);
-        Car car = new Car("Seat Ibiza",  engine,wheels, 1, 14);
+        Car car = new Car("Seat Ibiza", engine, wheels, 100, 14);
 
         car.showModel();
-        car.start(120000.0);
+        car.start(120.0); //вказати дистанцію
 
         System.out.println();
 
-        car.refurl(10.0);
+        car.refurl(10.0); // обсяг палива
 
         Wheel wh5 = new Wheel(14);
+        System.out.println();
         Wheel wh6 = new Wheel(4);
 
         car.replaceWheel(wh5, 1);

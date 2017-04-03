@@ -27,9 +27,6 @@ public class Car {
         return fuelVolumeInTank;
     }
 
-    public int getWheelsDiameters() {
-        return wheelsDiameters;
-    }
 
     public Wheel[] getWheels() {
         return wheels;
