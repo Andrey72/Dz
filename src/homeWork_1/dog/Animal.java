@@ -1,4 +1,4 @@
-package dog;
+package homeWork_1.dog;
 
 /**
  * Created by Sherlock on 03.04.2017.

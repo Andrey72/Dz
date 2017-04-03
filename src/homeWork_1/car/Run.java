@@ -1,4 +1,4 @@
-package homeWork_1;
+package homeWork_1.car;
 
 /**
  * Created by Sherlock on 31.03.2017.

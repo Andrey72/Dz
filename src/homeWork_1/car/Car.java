@@ -1,8 +1,13 @@
-package homeWork_1;
+package homeWork_1.car;
 
 /**
  * Created by Sherlock on 31.03.2017.
  */
+
+/*1. Создать объект класса Автомобиль, используя классы Колесо, Двигатель.
+Методы: ехать, заправляться, менять колесо, вывести на консоль марку ав-
+томобиля.*/
+
 public class Car {
     private String model;
     private Engine engine;
